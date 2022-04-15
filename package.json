@@ -1,0 +1,29 @@
+{
+  "name": "sharkdemo",
+  "version": "1.0.0",
+  "description": "一个小程序入门demo 111",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node ./upload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChengGPBU/SharkDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChengGPBU/SharkDemo/issues"
+  },
+  "homepage": "https://github.com/ChengGPBU/SharkDemo#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.1.0",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "miniprogram-ci": "^1.8.0",
+    "ora": "^5.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
