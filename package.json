@@ -22,8 +22,11 @@
     "commander": "^9.1.0",
     "fs-extra": "^10.0.1",
     "inquirer": "^8.2.2",
+    "jenkins": "^0.28.1",
+    "jimp": "^0.16.1",
     "miniprogram-ci": "^1.8.0",
     "ora": "^5.4.0",
+    "qrcode-reader": "^1.0.4",
     "qrcode-terminal": "^0.12.0"
   }
 }
