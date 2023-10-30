@@ -37,16 +37,16 @@ const project = new ci.Project({
 })()
 
 // 上传
-// ;(async () => {
-//   const uploadResult = await ci.upload({
-//     project,
-//     version: '1.1.1',
-//     desc: '测试',
-//     setting: {
-//       es6: true,
-//     },
-//     robot: 1,
-//     onProgressUpdate: console.log,
-//   })
-//   console.log(uploadResult)
-// })()
+;(async () => {
+  const uploadResult = await ci.upload({
+    project,
+    version: '1.1.1',
+    desc: '测试',
+    setting: {
+      es6: true,
+    },
+    robot: 1,
+    onProgressUpdate: console.log,
+  })
+  console.log(uploadResult)
+})()
