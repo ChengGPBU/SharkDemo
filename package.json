@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "node ./upload.js"
+    "upload": "node ./upload.js",
+    "build": "node ./jenkins-build.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "inquirer": "^8.2.2",
     "jenkins": "^0.28.1",
     "jimp": "^0.16.1",
+    "minio": "^7.0.27",
     "miniprogram-ci": "^1.8.0",
     "ora": "^5.4.0",
     "qrcode-reader": "^1.0.4",
