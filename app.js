@@ -1,5 +1,7 @@
 // //app.js
 import { eventCatcher } from './utils/hook/weapp'
+import {} from './utils/hook/proxyPage'
+
 
 eventCatcher.on('app-launch', (e) => {
   console.log('app-launch', e)
