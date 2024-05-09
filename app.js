@@ -1,4 +1,58 @@
-//app.js
+// //app.js
+import { eventCatcher } from './utils/hook/weapp'
+
+eventCatcher.on('app-launch', (e) => {
+  console.log('app-launch', e)
+})
+eventCatcher.on('app-show', (e) => {
+  console.log('app-show', e)
+})
+eventCatcher.on('app-hide', (e) => {
+  console.log('app-hide', e)
+})
+eventCatcher.on('app-page-not-found', (e) => {
+  console.log('app-page-not-found', e)
+})
+eventCatcher.on('page-load', (e) => {
+  console.log('page-load', e)
+})
+eventCatcher.on('page-show', (e) => {
+  console.log('page-show', e)
+})
+eventCatcher.on('page-ready', (e) => {
+  console.log('page-ready', e)
+})
+eventCatcher.on('page-hide', (e) => {
+  console.log('page-hide', e)
+})
+eventCatcher.on('page-unload', (e) => {
+  console.log('page-unload', e)
+})
+eventCatcher.on('page-pull-down-refresh', (e) => {
+  console.log('page-pull-down-refresh', e)
+})
+eventCatcher.on('page-share-app-message', (e) => {
+  console.log('page-share-app-message', e)
+})
+eventCatcher.on('page-share-timeline', (e) => {
+  console.log('page-share-timeline', e)
+})
+eventCatcher.on('page-add-to-favorites', (e) => {
+  console.log('page-add-to-favorites', e)
+})
+eventCatcher.on('page-tab-item-tap', (e) => {
+  console.log('page-tab-item-tap', e)
+})
+eventCatcher.on('js-error', (e) => {
+  console.log('js-error', e)
+})
+eventCatcher.on('js-unhandled-rejection', (e) => {
+  console.log('js-unhandled-rejection', e)
+})
+eventCatcher.on('memory-warning-on', (e) => {
+  console.log('memory-warning-on', e)
+})
+
 
 //获取应用实例
 const app = getApp()
