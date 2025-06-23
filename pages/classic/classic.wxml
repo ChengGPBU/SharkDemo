@@ -18,5 +18,10 @@
 <v-essay hidden="{{classicData.type != 300}}" img="{{classicData.image}}" content = "{{classicData.content}}"/>
 
 
+<button class='share-btn' bind:tap="getDeviceInfo">
+      <text>获取设备信息</text>
+</button>
+
+
 <v-navi bind:left="onLeft" bind:right = "onRight" class="navi" first="{{first}}" latest="{{latest}}" title="{{classicData.title}}"/>
 </view>

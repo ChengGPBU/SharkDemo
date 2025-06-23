@@ -57,6 +57,12 @@ Page({
     });
   },
 
+
+  getDeviceInfo: function() {
+    const deviceInfo = wx.getSystemInfoSync()
+    console.log("~~~~~~~deviceInfo~~~~~~~", deviceInfo)
+  },
+
   /**
    * 当前期的下一期
    */
